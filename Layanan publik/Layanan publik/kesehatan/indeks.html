@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Kesehatan & Darurat - Aksara.ID</title>
+    
+    <link rel="stylesheet" href="../style.css"> 
+    <link rel="stylesheet" href="../layanan-style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header-new">
+        <nav class="navbar">
+            <a href="../index.html" class="nav-logo">
+                <i class="fas fa-fingerprint"></i>
+                Aksara.ID
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html#hero">Beranda</a></li>
+                <li><a href="../index.html#about-us">Tentang Kami</a></li>
+                <li><a href="../index.html#featured">Layanan</a></li>
+                <li><a href="../index.html#popular">Populer</a></li>
+                <li><a href="../index.html#news">Berita</a></li>
+            </ul>
+            <div class="nav-buttons">
+                 <a href="../masuk.html" class="btn btn-secondary" id="login-btn">Masuk</a>
+                 <a href="../daftar.html" class="btn btn-primary" id="register-btn">Daftar</a>
+                 <a href="#" class="btn btn-secondary" id="account-btn" style="display: none;">
+                     <i class="fas fa-user"></i> Akun Saya
+                 </a>
+            </div>
+            <button class="nav-toggle" aria-label="Buka Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main class="content-page">
+        <div class="content-header">
+            <h1>Layanan Kesehatan & Darurat</h1>
+        </div>
+
+        <div class="content-wrapper">
+            <h2>Panggilan Darurat 119</h2>
+            <p>Gunakan tombol di bawah ini untuk panggilan darurat cepat ke layanan ambulans atau gawat darurat terdekat. Pastikan GPS Anda aktif.</p>
+            <form>
+                <button type="submit" class="btn btn-primary btn-full" style="background-color: #D32F2F;">Panggil Ambulans Sekarang</button>
+            </form>
+
+            <h2 style="margin-top: 3rem;">Cek Ketersediaan Kamar RS</h2>
+            <p>Cari tahu ketersediaan kamar rawat inap di rumah sakit terdekat di wilayah Anda secara *real-time*.</p>
+            <form>
+                <div class="form-group">
+                    <label for="pilih-rs">Pilih Rumah Sakit</label>
+                    <select id="pilih-rs">
+                        <option value="">-- Pilih Rumah Sakit --</option>
+                        <option value="rsud">RSUD Kota</option>
+                        <option value="rsm">RS Mitra Keluarga</option>
+                        <option value="rss">RS Sentosa</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pilih-kamar">Tipe Kamar</label>
+                    <select id="pilih-kamar">
+                        <option value="">-- Pilih Tipe Kamar --</option>
+                        <option value="vip">VIP</option>
+                        <option value="kelas1">Kelas 1</option>
+                        <option value="kelas2">Kelas 2</option>
+                        <option valueV="kelas3">Kelas 3</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Cek Ketersediaan</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-column about">
+                <a href="../index.html" class="footer-logo">
+                    <i class="fas fa-fingerprint"></i> Aksara.ID
+                </a>
+                <p>Portal terpadu untuk layanan publik yang mudah, cepat, dan transparan, kapanpun dan dimanapun.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <h3 class="kontak-kami-pindahan">Kontak Kami</h3>
+                <p>
+                    Jl. Pahlawan No. 1<br>
+                    Kota Administrasi, 12345<br>
+                    Email: hubungi@aksara.id
+                </p>
+                <p class="copyright-pindahan">&copy; 2025 Aksara.ID - Portal Layanan Rakyat Digital</p>
+            </div>
+            <div class="footer-column">
+                <h3>Navigasi</h3>
+                <ul>
+                    <li><a href="../index.html#hero">Beranda</a></li>
+                    <li><a href="../index.html#about-us">Tentang Kami</a></li>
+                    <li><a href="../index.html#featured">Layanan</a></li>
+                    <li><a href="../index.html#popular">Populer</a></li>
+                    <li><a href="../index.html#news">Berita</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

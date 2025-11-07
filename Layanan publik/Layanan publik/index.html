@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aksara.ID - Akses Layanan Rakyat Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header-new">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <i class="fas fa-fingerprint"></i>
+                Aksara.ID
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#about-us">Tentang Kami</a></li>
+                <li><a href="#featured">Layanan</a></li>
+                <li><a href="#popular">Populer</a></li>
+                <li><a href="#news">Berita</a></li>
+            </ul>
+          <div class="nav-buttons">
+                <a href="masuk.html" class="btn btn-secondary" id="login-btn">Masuk</a>
+                <a href="daftar.html" class="btn btn-primary" id="register-btn">Daftar</a>
+                
+                <a href="#" class="btn btn-secondary" id="account-btn" style="display: none;">
+                    <i class="fas fa-user"></i> Akun Saya
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="Buka Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-new" id="hero">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Layanan Publik di Ujung Jari Anda</h1>
+                    <p>
+                        Selamat datang di Aksara.ID. Temukan dan kelola semua layanan 
+                        kependudukan, perizinan, dan pengaduan Anda dengan 
+                        cepat, transparan, dan terpercaya.
+                    </p>
+                    <div class="hero-search">
+                        <i class="fas fa-search search-icon"></i>
+                        <input type="text" placeholder="Cari layanan yang Anda butuhkan...">
+                        <button class="btn btn-primary">Cari</button>
+                        
+                        <div class="search-results-container" id="search-results"></div>
+                    </div>
+                </div>
+                
+                <div class="hero-image-container">
+                    <img src="https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzMDB8MHwxfHNlYXJjaHwxfHx3b21hbiUyMG9uJTIwbGFwdG9wJTIwY2xlYW58ZW58MHx8fHwxNzMwNTIwNjMwfDA&ixlib.rb-4.0.3&q=80&w=1080" alt="Warga menggunakan layanan digital Aksara.ID">
+                    <div class="hero-bubble bubble-1">
+                        <i class="fas fa-id-card"></i>
+                    </div>
+                    <div class="hero-bubble bubble-2">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <div class="hero-bubble bubble-3">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+        <section class="about-us" id="about-us">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>Tentang Aksara.ID</h2>
+                    <p>
+                        Aksara.ID (Akses Layanan Rakyat Digital) adalah portal terpadu yang didedikasikan untuk merevolusi cara warga berinteraksi dengan layanan publik. Kami percaya bahwa setiap orang berhak mendapatkan akses yang mudah, cepat, dan transparan.
+                    </p>
+                    <p>
+                        Misi kami adalah memotong birokrasi yang rumit dan menghadirkan layanan kependudukan, perizinan, dan kesehatan langsung ke genggaman Anda. Portal ini dibangun dengan teknologi terkini untuk memastikan keamanan data dan kenyamanan Anda 24/7.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Tim Aksara.ID Bekerja">
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-services" id="featured">
+            <h2>Akses Cepat Layanan</h2>
+            <p class="section-subtitle">
+                Jelajahi berbagai layanan publik utama yang kami sediakan untuk memudahkan kebutuhan harian Anda. 
+                Mulai dari administrasi kependudukan hingga perizinan usaha, portal ini dirancang 
+                sebagai solusi satu pintu untuk memberikan kemudahan, efisiensi, dan transparansi bagi Anda.
+            </p>
+            <div class="services-grid">
+                
+                <a href="kependudukan/indeks.html" class="service-link">
+                <div class="service-card">
+                    <img src="assets/Dukcapil Kota Gorontalo Maksimalkan Layanan e-KTP untuk Dukung Pilkada Serentak 2024.jpeg" alt="Layanan Kependudukan">
+                    <div class="card-content">
+                        <h3 style="text-align: center;">Kependudukan</h3>
+                        <p>
+                            Urus dokumen penting seperti e-KTP, Kartu Keluarga, 
+                            dan Akta Kelahiran Anda secara online. 
+                            Layanan kami mengurangi birokrasi dan antrean panjang.
+                        </p>
+                    </div>
+                </div>
+                </a>
+                
+                <a href="perizinan/indeks.html" class="service-link">
+                <div class="service-card">
+                    <img src="assets/wa_ 083830204133 Melayani Sihalal Kec_ Jabon Kab Sidoarjo.jpeg" alt="Layanan Perizinan Usaha">
+                    <div class="card-content">
+                        <h3 style="text-align: center;">Perizinan Usaha</h3>
+                        <p>
+                            Mulai usaha Anda lebih cepat dengan layanan perizinan terpadu 
+                            satu pintu (PTSP) digital. Ajukan izin baru atau 
+                            perpanjang izin usaha Anda dengan mudah.
+                        </p>
+                    </div>
+                </div>
+                </a>
+                 
+                 <a href="kesehatan/indeks.html" class="service-link">
+                <div class="service-card">
+                    <img src="assets/RSUD dr_ Murjani Sampit Terapkan Pindai Wajah dan Sidik Jari, Pasien Kini Tak Perlu Bawa Kartu BPJS.jpeg" alt="Layanan Kesehatan & Darurat">
+                    <div class="card-content">
+                        <h3 style="text-align: center;">Kesehatan & Darurat</h3>
+                        <p>
+                            Dapatkan akses cepat ke layanan darurat 24 jam, panggil ambulans, 
+                            dan temukan informasi ketersediaan kamar rumah sakit 
+                            terdekat di wilayah Anda.
+                        </p>
+                    </div>
+                </div>
+                </a>
+                
+            </div>
+        </section>
+
+        <section class="popular-services" id="popular">
+            <h2>Layanan Paling Sering Dicari</h2>
+            <p class="section-subtitle">Beberapa layanan ini adalah yang paling sering diakses oleh pengguna. Temukan solusi cepat untuk kebutuhan populer di sini.</p>
+            <div class="popular-grid">
+                <div class="popular-card">
+                    <img src="assets/layananpublik.jpg" alt="Pengaduan">
+                    <h3>Pengaduan Publik</h3>
+                </div>
+                <div class="popular-card">
+                    <img src="assets/bayarpajak.jpg" alt="Pajak">
+                    <h3>Bayar Pajak (PBB)</h3>
+                </div>
+                <div class="popular-card">
+                    <img src="assets/tanah.webp" alt="Sertifikat">
+                    <h3>Sertifikat Tanah</h3>
+                </div>
+                <div class="popular-card">
+                    <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzMDB8MHwxfHNlYXJjaHwxfHxkYXRhX3N0YXRpc3RpY3N8ZW58MHx8fHwxNzMwMzE4OTg0fDA&ixlib.rb-4.0.3&q=80&w=400" alt="Data">
+                    <h3>Data Statistik</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-flow" id="flow">
+            <h2>Rencanakan pengajuan Anda dengan mudah</h2>
+            <div class="flow-steps">
+                <div class="step">
+                    <div class="step-icon"><i class="fas fa-search"></i></div>
+                    <h3>Temukan Layanan</h3>
+                    <p>Cari layanan yang Anda butuhkan melalui portal kami.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon"><i class="fas fa-file-alt"></i></div>
+                    <h3>Lengkapi Dokumen</h3>
+                    <p>Siapkan dan unggah semua persyaratan yang diperlukan.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon"><i class="fas fa-check-circle"></i></div>
+                    <h3>Proses & Selesai</h3>
+                    <p>Pantau status pengajuan Anda hingga selesai.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-section" id="news">
+            <h2>Berita & Pengumuman</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzMDB8MHwxfHNlYXJjaHwxfHxuZXdzfGVufDB8fHx8MTczMDMxOTA2MXww&ixlib.rb-4.0.3&q=80&w=400" alt="Berita 1">
+                    <div class="news-content">
+                        <span class="news-date">04 Nov 2025</span>
+                        <h3>Jadwal Baru Pelayanan Keliling Kantor Dukcapil</h3>
+                        <p>Simak jadwal terbaru di 5 kecamatan...</p>
+                        <a href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAzMDB8MHwxfHNlYXJjaHwxfHxwdWJsaWNfYW5ub3VuY2VtZW50fGVufDB8fHx8MTczMDMxOTEyN3ww&ixlib.rb-4.0.3&q=80&w=400" alt="Berita 2">
+                    <div class="news-content">
+                        <span class="news-date">03 Nov 2025</span>
+                        <h3>Program Bantuan Sosial 2025 Telah Dibuka</h3>
+                        <p>Kriteria dan cara pendaftaran...</p>
+                        <a href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+  <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-column about">
+                <a href="#" class="footer-logo">
+                    <i class="fas fa-fingerprint"></i> Aksara.ID
+                </a>
+                <p>Portal terpadu untuk layanan publik yang mudah, cepat, dan transparan, kapanpun dan dimanapun.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <h3 class="kontak-kami-pindahan">Kontak Kami</h3>
+                <p>
+                    Jl. Pahlawan No. 1<br>
+                    Kota Administrasi, 12345<br>
+                    Email: hubungi@aksara.id
+                </p>
+
+                <p class="copyright-pindahan">&copy; 2025 Aksara.ID - Portal Layanan Rakyat Digital</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Navigasi</h3>
+                <ul>
+                    <li><a href="#hero">Beranda</a></li>
+                    <li><a href="#about-us">Tentang Kami</a></li>
+                    <li><a href="#featured">Layanan</a></li>
+                    <li><a href="#popular">Populer</a></li>
+                    <li><a href="#news">Berita</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
